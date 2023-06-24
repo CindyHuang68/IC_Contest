@@ -14,7 +14,6 @@ always@(posedge clk or posedge reset)begin
 		cs <= ns;
 end
 
-
 //combinational
 //assign ns = cs + 1'd1;
 
